@@ -5,10 +5,8 @@ var mainPlayer = {
     speed: 10,
     power: 1,
 
-    messanger: function (message0, message1, message2) {
-        alert(message0);
-        alert(message1);
-        alert(message2);
+    messanger: function (message) {
+        alert("Is this correct?   " + message);
     }
 }
 
@@ -18,9 +16,14 @@ alert("Welcome "+ mainPlayer.name);
 var phrases = [
     prompt("what is your middle name?"),
     prompt("Enter your phone number."),
-    prompt("Enter your social securiy number :P")];
+    prompt("Enter your social securiy number :P"),
+    prompt("Who is your first born child?"),
+    prompt("What is your Credit Card number?")
+    ];
 
-mainPlayer.messanger(phrases[0], phrases[1], phrases[2]);
+for (var i = 0; i < phrases.length; i++) {
+    mainPlayer.messanger(phrases[i]);
+}
 /*
 mainPlayer.rank = prompt("what is your special skill?");
 alert(mainPlayer.name + " your rank is "+ mainPlayer.rank)
