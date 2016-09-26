@@ -1,4 +1,6 @@
 
+
+/*
 var mainPlayer = {
     name: "Player",
     rank: "Pawn",
@@ -24,6 +26,19 @@ var phrases = [
 for (var i = 0; i < phrases.length; i++) {
     mainPlayer.messanger(phrases[i]);
 }
+*/
+
+function PlayGame(firstNum, secondNum) {
+    alert(firstNum + secondNum);
+    return firstNum + secondNum;
+}
+
+var firstPrompt = parseInt(prompt("Enter a number between 0 and 10"));
+var secondPrompt = parseInt(prompt("Enter a number between 11 and 20"));
+
+var score = PlayGame(firstPrompt, secondPrompt);
+alert("Your score is "+ score + "!");
+
 /*
 mainPlayer.rank = prompt("what is your special skill?");
 alert(mainPlayer.name + " your rank is "+ mainPlayer.rank)
