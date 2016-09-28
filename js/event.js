@@ -5,3 +5,11 @@ var moosFunction = function moosFunctionHandler() {
 }
 
 button.addEventListener('click', moosFunction);
+
+var startButton = document.getElementById('startGame');
+
+var startGameHandler = function startMyGame(){
+    prompt("Enter your Name.");
+}
+
+startButton.addEventListener('click', startGameHandler);
