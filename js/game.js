@@ -39,7 +39,3 @@ var secondPrompt = parseInt(prompt("Enter a number between 11 and 20"));
 var score = PlayGame(firstPrompt, secondPrompt);
 alert("Your score is "+ score + "!");
 
-/*
-mainPlayer.rank = prompt("what is your special skill?");
-alert(mainPlayer.name + " your rank is "+ mainPlayer.rank)
-*/
