@@ -18,10 +18,9 @@ var startGameHandler = function startMyGame(){
 startButton.addEventListener('click', startGameHandler);
 
 var gameButton = function GameButtonConstruct (name){
-    var button = document.getElementById(this.name);
-    console.log(this.name);
+    var button;
 }
 
 var fireWeaponButton = new gameButton('fireweapon');
-
+fireWeaponButton.button = document.getElementById('fireweapon');
 console.log(fireWeaponButton.button);
