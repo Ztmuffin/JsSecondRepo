@@ -7,7 +7,10 @@ var enterName = function userButton() {
 }
 button.addEventListener('click', enterName);
 
+// remember how to add an object maker.
+// make as objects Player, Enimies 3, weapons
 
+// add variables like stats to an object
 var health = 10,
 var strength = "high",
 var speed = 50,
@@ -23,3 +26,4 @@ enimies.speed
 alert(playerUser.speed);
 
 prompt ("what weapon do you use?");
+// learn how to add a list of options for adding weapons
