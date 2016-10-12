@@ -9,7 +9,7 @@ var enterName = function userButton() {
 var playerUser = new player();
 
 function playerInfo(currentPlayer, health, strength, speed, stealth) {
-    currentPlayer.name = prompt("Who are you?"),
+    currentPlayer.name = prompt("Captain, What is your name?"),
     currentPlayer.health = 10
     currentPlayer.strength = "Strong"
     currentPlayer.speed = 50;
